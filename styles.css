@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#comanda-details, #total-amount {
+    margin-top: 20px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#comanda-details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#comanda-details th, #comanda-details td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#comanda-details th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+#comanda-details tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#orders-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#orders-list th, #orders-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#orders-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+#orders-list tr:nth-child(even) {
+   background-color: #f9f9f9;
+}
+
+#orders-list {
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.order-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.order-item table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.order-item th, .order-item td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.order-item th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.order-item tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+hr {
+    border: 1px solid #ddd;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+}

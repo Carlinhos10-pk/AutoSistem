@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistema de Pedidos</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Sistema de Pedidos - Bar de Espetinhos</h1>
+    <form id="order-form">
+        <label for="table">Mesa:</label>
+        <input type="number" id="table" name="table" required>
+        
+        <label for="item">Item:</label>
+        <input type="text" id="item" name="item" required>
+        
+        <label for="quantity">Quantidade:</label>
+        <input type="number" id="quantity" name="quantity" required>
+        
+        <label for="code">Código:</label>
+        <input type="text" id="code" name="code" required>
+        
+        <label for="price">Preço:</label>
+        <input type="number" step="0.01" id="price" name="price" required>
+        
+        <button type="button" onclick="sendOrder()">Enviar Pedido</button>
+    </form>
+    
+      
+    <button type="button" onclick="fetchOrders()">Ver Pedidos</button>
+    <button type="button" onclick="fetchTotal()">Ver Total</button>
+    <button type="button" onclick="sendOrderToKitchen()">Enviar para Bar/Cozinha</button>  
+    
+    <div id="orders-list"></div>
+    <div id="total-amount"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fechamento de Comandas - Caixa</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Caixa</h1>
+    <form id="search-form">
+        <label for="code">Comanda:</label>
+        <input type="text" id="code" name="code" required>
+        <button type="button" onclick="fetchDescription()">Buscar</button>
+    </form>
+
+    <div id="comanda-details"></div>
+    <div id="total-amount"></div>
+
+    <button type="button" onclick="closeComanda()">Fechar Comanda</button>
+
+    <script src="caixa.js"></script>
+</body>
+</html>
